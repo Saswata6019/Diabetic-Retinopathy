@@ -1,6 +1,8 @@
 # Diabetic Retinopathy
 Detection of Diabetic Retinopathy using Data Processing (Tensorflow 1.12.0 and Python 3.6.6)
 
+- Editor used: Sublime Text 
+- Shell used to run the code: Git Bash
 - Libraries used: Pandas, Numpy & Tensorflow
 - DR.csv is the main dataset, which is used for the training and testing stages of the model
 - demo.csv is the prediction dataset, which is used as input for the model after the training and testing stages are completed
