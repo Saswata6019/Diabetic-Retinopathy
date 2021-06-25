@@ -5,7 +5,7 @@ Detection of Diabetic Retinopathy using Data Processing (Tensorflow 1.12.0 and P
 - Shell used to run the code: Git Bash
 - Libraries used: Pandas, Numpy & Tensorflow
 - DR.csv is the main dataset, which is used for the training and testing stages of the model
-- demo.csv is the prediction dataset, which is used as input for the model after the training and testing stages are completed
+- demo.csv is the prediction dataset, which is used as input for the prediction stage of the model after the training and testing stages are completed
 
 Insight on DR.csv
 - There are a total of 20 columns of data
