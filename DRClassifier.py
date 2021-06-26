@@ -3,7 +3,7 @@ import pandas as pd
 import tensorflow as tf
 
 dr = pd.read_csv("D:/DR ML Program/DR.csv")
-predict = pd.read_csv("D:/DR ML Program/demo.csv")
+predict = pd.read_csv("D:/DR ML Program/predict.csv")
 
 from sklearn.model_selection import train_test_split 
 xtrain, xtest, ytrain, ytest = train_test_split(dr.iloc[:,0:19], dr["result"], test_size=0.25, random_state=None)
