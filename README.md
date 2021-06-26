@@ -7,7 +7,7 @@ Detection of Diabetic Retinopathy using Data Processing (Tensorflow 1.12.0 and P
 - DR.csv is the main dataset, which is used for the training and testing stages of the model
 - demo.csv is the prediction dataset, which is used as input for the prediction stage of the model after the training and testing stages are completed
 
-Insight on DR.csv & demo.csv
+Insight on DR.csv
 - There are a total of 20 columns of data
 - The first 19 columns serve as the features for the model
 - The last (20th) column serves as the result, which the model predicts after training and testing itself based on the 19 features 
