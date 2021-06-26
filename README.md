@@ -10,7 +10,7 @@ Detection of Diabetic Retinopathy using Data Processing (Tensorflow 1.12.0 and P
 Insight on DR.csv
 - There are a total of 20 columns of data
 - The first 19 columns serve as the features for the model
-- The last (20th) column serves as the result, which the model predicts and trains itself on during the prediction and training+testing stages respectively. The demo.csv file does not contain the 20th/result column since the model is supposed to predict that result and generate the same as it's output.
+- The last (20th) column serves as the result, which the model predicts and trains itself on during the prediction and training+testing stages respectively. The predict.csv file does not contain the 20th/result column since the model is supposed to predict that result and generate the same as it's output.
 - Column 1: Represents the binary result of quality assessment of the retinal scans, 0 = bad quality 1 = sufficient quality
 - Coumn 2: Represents the binary result of pre-screening, where 1 indicates severe retinal abnormality and 0 its lack
 - Column 3-8: Represents the results of MA detection. Each feature value stand for the number of MAs found at the confidence levels alpha = 0.5, . . . , 1, respectively
