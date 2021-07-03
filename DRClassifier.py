@@ -6,7 +6,7 @@ dr = pd.read_csv("D:/DR ML Program/DR.csv")
 predict = pd.read_csv("D:/DR ML Program/predict.csv")
 
 from sklearn.model_selection import train_test_split 
-xtrain, xtest, ytrain, ytest = train_test_split(dr.iloc[:,0:19], dr["result"], test_size = 0.25, random_state = None)
+xtrain, xtest, ytrain, ytest = train_test_split(dr.iloc[:,0:19], dr["result"], test_size = 0.25)
 
 columns = dr.columns[0:19]
  
@@ -21,7 +21,7 @@ classifier = tf.contrib.learn.DNNClassifier(
 	feature_columns = feature_columns,
 	hidden_units = [15],
 	n_classes = 2,
-	optimizer = tf.train.AdamOptimizer(learning_rate=0.00146, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-4),
+	optimizer = tf.train.AdamOptimizer(learning_rate = 0.00146, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-4),
   	activation_fn = tf.nn.sigmoid
 )
 
